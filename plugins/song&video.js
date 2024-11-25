@@ -3,7 +3,7 @@ const fg = require('api-dylux')
 const yts = require('yt-search')
 
 cmd({
-    pattern: "play",
+    pattern: "song",
     desc: "download songs",
     category: "download",
     react: "🎵",
@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*◆ MALVIN-MD SONG DOWNLOADER ◆*
+let desc = `*◆ QUEEN NETHU-MD SONG DOWNLOADER ◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -28,7 +28,7 @@ let desc = `*◆ MALVIN-MD SONG DOWNLOADER ◆*
 
 |➤ AGO - ${data.ago}
 
-> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -61,7 +61,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*◆ MALVIN-MD VIDEO DOWNLOADER ◆*
+let des = `*◆ QUEEN NETHU-MD VIDEO DOWNLOADER ◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -73,7 +73,7 @@ let des = `*◆ MALVIN-MD VIDEO DOWNLOADER ◆*
 
 | ➤ AGO - ${data.ago}
 
-> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
