@@ -11,16 +11,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*🧚‍♂️ MALVIN MD Whatsapp Bot*
+let dec = `*🧚‍♂️ QUEEN NETHU-MD Whatsapp Bot*
 
 *| ᴏᴡɴᴇʀ ɴᴀᴍᴇ*: ᴍᴀʟᴠɪɴ ᴋɪɴɢ
-*| ɴᴜᴍʙᴇʀ*: 263780934873
-*| ʏᴏᴜᴛᴜʙᴇ*: https://www.youtube.com/@malvintech2 
-*| ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*: https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+*| ɴᴜᴍʙᴇʀ*: 97742135085
+*| ʏᴏᴜᴛᴜʙᴇ*: https://youtube.com/@sihina_paradise?si=QABfCWh7Ez9OoY25
+*| ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*: https://chat.whatsapp.com/GKMLM6ejFGr59hTKZo4mnx
 
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ-ᴍᴅ
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/uxnee2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://i.ibb.co/G7SDTrF/20241112-203318.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
