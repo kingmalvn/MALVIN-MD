@@ -15,19 +15,19 @@ let dec = `*👋 Hello ${pushname}*
           
 📍𝖱𝖾𝗉𝗈 𝖫𝗂𝗇𝗄 ❤️‍🔥👇
 
-👨‍💻◦ https://github.com/kingmalvn/MALVIN-MD 
+👨‍💻◦ Cooming Coon
 
 📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 𝖬𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
 
-👨‍💻◦ https://www.youtube.com/@malvintech2 
+👨‍💻◦ https://youtube.com/@sihina_paradise?si=bauOkmkPIAJIdAeb
 
-📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖥𝗈𝗅𝗅𝗈𝗐 𝖬𝗒 𝖶𝗁𝖺𝗍𝗌𝖺𝗉𝗉 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
+📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖥𝗈𝗅𝗅𝗈𝗐 𝖬𝗒 𝖶𝗁𝖺𝗍𝗌𝖺𝗉𝗉 Group  👇
 
-👨‍💻◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+👨‍💻◦ https://chat.whatsapp.com/GKMLM6ejFGr59hTKZo4mnx
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ*
+> *©©ᴘᴏᴡᴇʀᴇᴅ ʙʏ Qᴜᴇᴇɴ ɴᴇᴛʜᴜ-ᴍᴅ*
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/uxnee2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://i.ibb.co/G7SDTrF/20241112-203318.jpgQUEEN NETHU-MD`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
